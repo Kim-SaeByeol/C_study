@@ -1,0 +1,14 @@
+#include <stdio.h>
+	void main() {
+		int a, b;
+		float c, d;
+
+		a = 100;
+		b = a;
+
+		c = 111.1f;
+		d = c;
+
+		printf("a, b의 값은 ==> %d, %d \n", a , b);
+		printf("c, d의 값은 ==< %f, %f \n", c , d);
+	}
